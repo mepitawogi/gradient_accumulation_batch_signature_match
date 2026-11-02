@@ -1,11 +1,11 @@
-# aiefficiency_jd063
+# gradient_accumulation_batch_signature_match
 
 **给AI 工程效率工具工程师·梯度累积与有效批量算一个特征指纹并定位可疑片段。**
 
-`aiefficiency_jd063` —— 通过字符级与结构级特征识别AI 工程效率工具工程师·梯度累积与有效批量的痕迹，给出密度与命中位置
+`gradient_accumulation_batch_signature_match` —— 通过字符级与结构级特征识别AI 工程效率工具工程师·梯度累积与有效批量的痕迹，给出密度与命中位置
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`aiefficiency_jd063.py` 拷走就能用
+- 单文件，`gradient_accumulation_batch_signature_match.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install mepitawogi-aiefficiency_jd063
+pip install mepitawogi-gradient_accumulation_batch_signature_match
 ```
 
 装完直接用命令名调用：
 
 ```bash
-aiefficiency_jd063 --help
+gradient_accumulation_batch_signature_match --help
 ```
 
-也可以不用安装，直接把 `aiefficiency_jd063.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `gradient_accumulation_batch_signature_match.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ aiefficiency_jd063 --help
 ## 用法
 
 ```bash
-python aiefficiency_jd063.py --file input.txt
-python aiefficiency_jd063.py --text "示例内容"
-python aiefficiency_jd063.py --file input.txt --json
+python gradient_accumulation_batch_signature_match.py --file input.txt
+python gradient_accumulation_batch_signature_match.py --text "示例内容"
+python gradient_accumulation_batch_signature_match.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python aiefficiency_jd063.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_aiefficiency_jd063.py
+python test_gradient_accumulation_batch_signature_match.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_aiefficiency_jd063.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/mepitawogi/aiefficiency_jd063>
+- GitHub 仓库：<https://github.com/mepitawogi/gradient_accumulation_batch_signature_match>
 
 ---
 
@@ -79,7 +79,7 @@ python test_aiefficiency_jd063.py
 mepitawogi 做AI 工程效率工具工程师·梯度累积与有效批量相关的问题，方向对标快手的初级AI 工程效率工具工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://mepitawogi.github.io>
-- 仓库：<https://github.com/mepitawogi/aiefficiency_jd063>
+- 仓库：<https://github.com/mepitawogi/gradient_accumulation_batch_signature_match>
 
 ## 许可
 
